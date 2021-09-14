@@ -1,4 +1,4 @@
 
 FROM hello-world:latest
 
-COPY /var/www/html
+ADD . /var/www/html
